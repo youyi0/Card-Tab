@@ -25,7 +25,7 @@ jobs:
         id: sync # 设置步骤ID为 sync，供后续步骤引用
         uses: aormsby/Fork-Sync-With-Upstream-action@v3.4 # 使用 aormsby/Fork-Sync-With-Upstream-action@v3.4 操作同步上游仓库的更改
         with:
-          upstream_sync_repo: zht98/test # 指定上游仓库的名称
+          upstream_sync_repo: zht98/Card-Tab # 指定上游仓库的名称
           upstream_sync_branch: main # 指定上游仓库的分支
           target_sync_branch: main # 指定目标仓库的分支
           target_repo_token: ${{ secrets.GITHUB_TOKEN }} # 使用 GitHub 提供的自动生成的 token
