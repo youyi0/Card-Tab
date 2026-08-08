@@ -2027,7 +2027,7 @@ const HTML_CONTENT = `
                         <option value="google">谷歌</option>
                         <option value="duckduckgo">DuckDuckGo</option>
                     </select>
-                    <input type="text" id="search-input" name="search" autocomplete="search" placeholder="">
+                    <input type="text" id="search-input" name="search_q" autocomplete="off" placeholder="">
                     <!-- input type="text" id="search-input" placeholder="" -->
                     <button id="search-button">🔍</button>
                 </div>
